@@ -23,4 +23,4 @@ Tesbo support the developing function test scripts for the mobile and web applic
 * Random Data generation library (Implement in Future)
 
 
-#For Getting Started Please Visit [Wiki page](https://github.com/Viral1010/Tesbo/wiki/Getting-Started)
+# For Getting Started Please Visit [Wiki page](https://github.com/Viral1010/Tesbo/wiki/Getting-Started)
