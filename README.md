@@ -1,64 +1,26 @@
 # Tesbo
 
-Tesbo is the End to End Test Automation Framework for the Web and Mobile application.
+Tesbo is the hybrid test framework that is built upon the Keyword Driven and represent the test similar to a Behaviour Driven Approach. 
+
+Tesbo support the developing function test scripts for the mobile and web application. 
+
+### Features
+
+* Easy to use
+* Low maintenance
+* Reusability
+* Web & Mobile Application 
+* Cross Browser Supports
+* Key word Driven testing
+* Data driven testing
+* Full analytics reporting
+* Various tools Integration
+* Parallel execution 
+* Selenium Grid Supports
+* CI Integration
+* Work On any Web Technology
+* Test management : Module Based approach
+* Random Data generation library (Implement in Future)
 
 
-
-##Getting Started
-
-1. Download the Project Structure from here
-2. Add Tesbo Latest Release in your project library.
-
-
-
-#### File Structure:
-
-        .
-       
-        └── src                                   
-        │   ├── tests                              # Contains all the tests
-        │        ├── java    
-        │        │      └─── TestRunner.java       # Main Test Runner Invocation file              
-        │        ├── locator       
-        │        │      └─── moduelName.json       # Object repo for the perticular module
-        │        └── suites
-        │               └─── moduleName.suite      # Test declation file for the module.
-        │
-        └── config.json                            # Main configuration file for the Running Tesbo
-        
-        
-        
-**Note**: For Any Module, name of **_.suite File_** and **_.json_** file should be the same.
-
-
-
-#### Declaring locators :
-
-1. Create the module wise .json file for the declaring locator of page element
-2. Follow the below format for the declaring locators
-
-```
-{
- "LocatorName" : "Valid locator value",
-}
-
-
-```
-
-e.g
-
-```aidl
-{
-"loginLink"   : "//a[contains(.,'Login & Signup')]",
-"userName"    : "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input",
-"password"    : "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input",
-"loginButton" : "//button//span[.='Login']"
-}
-```
-
-- Declare valid xpath, name, id, classname, css selector, linktext, partialLinktext for the element. Tesbo automatically find the type and find the element.
-
-
-
-
-#### Start to create Test cases :
+#For Getting Started Please Visit [Wiki page](https://github.com/Viral1010/Tesbo/wiki/Getting-Started)
